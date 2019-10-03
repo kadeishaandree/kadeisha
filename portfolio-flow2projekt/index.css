@@ -1,0 +1,162 @@
+* {
+margin: 0px;
+padding: 0px;
+}
+
+/* Kode til navigationsmenu */
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(255, 185, 60, 0.5);
+  font-family: cursive;
+  font-size: 30px;
+  height: 125px;
+  align-items: center;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  border: 1px solid black;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 5px;
+}
+.logo {
+  text-decoration: none;
+  color: black;
+  border: 1px solid black;
+  margin-left: 5px;
+  padding: 5px;
+}
+nav a:hover {
+  background-color: white;
+}
+
+/* Tabs her er navnet på den div, som linket befinder sig i */
+
+.container .tabs a:hover {
+  background-color: white;
+}
+body {
+  background-color: white;
+}
+
+/* Kode til display cards */
+
+.infobox {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  margin-top: 100px;
+}
+.portfolio-side img {
+  width: 300px;
+  height: 300px;
+}
+.om-mig-side img {
+  width: 300px;
+  height: 300px;
+}
+.kontakt-side img {
+  width: 300px;
+  height: 300px;
+}
+.infobox a {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  justify-content: center;
+}
+.portfolio-side .infotext {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.om-mig-side .infotext {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.kontakt-side .infotext {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.infotext {
+  height: 300px;
+  width: 300px;
+  background-color: rgba(00,00,00,0.5);
+  color: white;
+  font-size: 1.2em;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.7;
+}
+.infobox:hover .infotext {
+  visibility: visible;
+  opacity: 1;
+}
+footer {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  margin-top: 150px;
+  height: 70px;
+  font-family: sans-serif;
+  background-color: rgb(255, 185, 60, 0.5)
+}
+.socialemedier img {
+  width: 20px;
+  height: 20px;
+}
+.kontaktoplysninger img {
+  width: 20px;
+  height: 20px;
+}
+.koge {
+  background-color: #ddd;
+  display: flex;
+  text-align: left;
+  border: 5px solid black;
+  width: 150px;
+  height: 100px;
+  margin-top: 150px;
+  margin-left: 100px;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+.om-mig {
+  background-color: #ddd;
+  display: flex;
+  text-align: left;
+  border: 5px solid black;
+  width: 150px;
+  height: 100px;
+  margin-top: 150px;
+  margin-left: 100px;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+.kontakt
+{
+  background-color: #ddd;
+  display: flex;
+  text-align: left;
+  border: 5px solid black;
+  width: 150px;
+  height: 100px;
+  margin-top: 150px;
+  margin-left: 100px;
+  font-family: sans-serif;
+  font-size: 20px;
+}
